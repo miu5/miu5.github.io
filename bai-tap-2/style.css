@@ -40,7 +40,7 @@ body {
 }
 
 .gallery {
-  margin: auto 30px 30px;
+  margin: auto 15px 20px;
   float: left;
 }
 
@@ -52,10 +52,14 @@ body {
   object-fit: cover;
   border: auto;
 }
+.gallery img:hover {
+        transform: scale(1.05);
+        transition-timing-function: ease;
+}
 
 .desc {
   padding: 5px;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
 }
 
