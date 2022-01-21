@@ -14,12 +14,11 @@ body {
 .navbar {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
-  padding: 10px;    
+  padding: 10px;
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0,3s;
-
+  transition: top 0, 3s;
 }
 
 .navbar a {
@@ -64,7 +63,6 @@ body {
   margin-right: 20px;
 }
 
-
 .content {
   padding: 50px 20px 20px;
   width: 1000px;
@@ -73,3 +71,25 @@ body {
   color: white;
 }
 
+.content p {
+  text-align: left;
+}
+
+.content #about {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gallery {
+  margin-top: auto;
+}
+
+.gallery img {
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
