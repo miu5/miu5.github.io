@@ -23,7 +23,7 @@ body {
 
 .navbar a {
   float: left;
-  color: rgb(174, 255, 44);
+  color: rgb(167, 252, 30);
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -92,5 +92,5 @@ body {
   width: 300px;
   height: 200px;
   object-fit: cover;
-
 }
+
