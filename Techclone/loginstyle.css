@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(66, 109, 230);
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.container {
+  margin: 10px 10px 0;
+}
+
+.Login {
+  max-width: 360px;
+  height: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 100px auto;
+}
+.Login h2 {
+  text-align: center;
+}
+.input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgb(222, 243, 245);
+  border-radius: 20px;
+  font-weight: 390;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+#submit {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background-color: dodgerblue;
+}
+
+#submit:hover {
+  background-color: rgb(69, 158, 248);
+}
