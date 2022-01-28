@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&family=Source+Sans+Pro:wght@700;900&family=Source+Serif+Pro:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+* a {
+    text-decoration: none;
+}
+footer {
+  background-color: black;
+  padding: 0.5em 0.5em 0.5em;
+}
+
+.copyright {
+  text-align: center;
+  text-decoration: none;
+  color: greenyellow;
+  margin-top: 2em;
+  font-family: Nunito Sans, sans-serif;
+  font-size: 10px;
+}
+.copyright a {
+  color: rgb(148, 148, 148);
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+#logo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 19px 3px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 350ms;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+#logo:hover {
+  color: greenyellow;
+  transform: scale(1.03);
+}
+
+header {
+  background: black;
+  display: flex;
+  margin-top: 1em;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.navbar {
+  flex-grow: 1;
+}
+
+.nav__list {
+  font-family: Nunito Sans, sans-serif;
+  font-size: regular;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  position: relative;
+}
+
+.nav__list .list__item {
+  color: white;
+  display: block;
+  text-decoration: none;
+  transition: 250ms;
+  padding: 19px 9px;
+}
+
+.list__item:hover {
+  color: greenyellow;
+}
+
+
+/* container  */
+.container {
+  max-width: 1300px;
+  min-height: auto;
+  margin: 0 227px;
+}
+
+.container .welcome_title {
+  font-family: Source Sans Pro, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  margin: 40px 0 60px;
+  line-height: 0.8em;
+}
+
+.container .welcome_description {
+  font-family: Source Serif Pro, sans-serif;
+  font-size: 30px;
+  margin-bottom: 4em;
+}
+
+.container .welcome_start {
+  font-family: Source Sans Pro, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: black;
+  color: greenyellow;
+  font-size: 20px;
+  margin: 0 0 3em;
+  line-height: 0.8em;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px;
+  transition: all 0.2s;
+
+}
+.container .welcome_start:hover {
+    background: greenyellow;
+    color: black;
+}
+
+.container__2 {
+  max-width: 1300px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+/* gallery */
+
+.gallery {
+    min-width: 350px;
+    height: 458px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px 3px 38px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+
+  }
+  .gallery:hover {
+    box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.2);
+    background-color: greenyellow;
+    transform: scale(1.03);
+  }
+  .gallery:hover .desc {
+    color: black;
+
+  }
+  
+  .gallery img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+
+  .gallery .desc {
+    font-family: Source Sans Pro, sans-serif;
+    color: greenyellow;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+  }

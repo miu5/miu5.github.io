@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M0rtal</title>
+    <title>Mrtal</title>
     <link rel="stylesheet" href="css_0.2.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -14,25 +14,26 @@
 
     <header>
         <a href="#" id="logo"><i class="fas fa-biohazard"></i> M0RTAL.</a>
-        
-        <ul class="sub_menu">
-            <li><a href="#">Motherboard</a></li>
-            <li><a href="#">Terminal</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-        
         <nav class="navbar">
         <ul class="nav__list">
-            <li><a href="index.html"class="list__item">Home</a>
-            <li><a href="#"class="list__item">About</a></li>
-            <li class="sign"><a href="#">Sign in</a></li>
-            <li class="sign"><a href="#">Sign up</a></li>
+            <li><a href="index.html"class="list__item">Home</a></li>
+            <li><a href="#"class="list__item">More <i class="fas fa-caret-down"></i></a>
+            <ul class="sub__list">
+                <li><a href="#">/motherboard/</a></li>
+                <li><a href="#">/terminal/</a></li>
+                <li><a href="#">/creature/</a></li>
+            </ul>
+            </li>
         </ul>
     </nav>
+    <div class="navbar-right">
+        <button class="button" id="signin">Sign in</button>
+        <button class="button"id="signup">Sign up</button>
+      </div>
 </header>
 
 <div class="container">
-    <h1> Welcome on board.</h1>
+    <h1 class="welcome_title"> Welcome on <br> <span style="color:rgb(160, 255, 16);font-weight:bold">board.</span></h1> 
     <p>According to all known laws
         of aviation,
         
@@ -52,7 +53,6 @@
         what humans think is impossible.
         </p>
 </div>
-</body>
 <footer>
 	<p class="copyright">Copyright © 2666 The Example Company</p>
 	<p class="copyright">
@@ -61,4 +61,6 @@
 		<a href="#">Contact Us</a>
 	</p>
 </footer>
+</body>
+
 </html>
