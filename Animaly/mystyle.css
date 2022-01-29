@@ -128,7 +128,7 @@ header {
 
 .container__2 {
   max-width: 1300px;
-  margin: 50px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
