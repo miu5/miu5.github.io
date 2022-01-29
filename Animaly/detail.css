@@ -1,28 +1,29 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: 90%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 90%;
+  align-items: center;
 }
 .container img {
-    width: 700px;
-    height: 1000px;
-    object-fit: cover;
-    border-radius: 30px;
-    
+  width: 75%;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .container .welcome_description {
-    font-family: Source Serif Pro, sans-serif;
-    font-size: 20px;
-  }
-  
-  .welcome_start {
-      margin: 10px 0;
-      width: 700px;
-  }
+  font-family: Source Serif Pro, sans-serif;
+  font-size: 20px;
+  width: 75%;
+}
 
-  .container .welcome_description {
-      max-width: 700px;
-  }
+.welcome_start {
+  margin: 10px 0;
+  width: 75%;
+}
+.container__btn {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
