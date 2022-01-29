@@ -88,33 +88,32 @@ header {
 /* container  */
 .container {
   max-width: 1300px;
-  min-height: auto;
-  margin: 0 227px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+ padding: 30px;
 }
 
 .container .welcome_title {
   font-family: Source Sans Pro, sans-serif;
   color: rgb(0, 0, 0);
   font-size: 100px;
-  margin: 40px 0 60px;
   line-height: 0.8em;
+
 }
 
 .container .welcome_description {
   font-family: Source Serif Pro, sans-serif;
   font-size: 30px;
-  margin-bottom: 4em;
 }
 
 .container .welcome_start {
   font-family: Source Sans Pro, sans-serif;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   background: black;
   color: greenyellow;
   font-size: 20px;
-  margin: 0 0 3em;
   line-height: 0.8em;
   text-decoration: none;
   border-radius: 30px;

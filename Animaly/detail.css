@@ -1,29 +1,23 @@
-.container img {
-    width: 1000px;
-    height: 1500px;
-    object-fit: cover;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
 .container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: space-evenly;
-
+    justify-content: space-between;
+    flex-basis: 90%;
+    align-items: center;
 }
-
-.container .welcome_start {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    margin-bottom: 2em;
+.container img {
+    width: 700px;
+    height: 1000px;
+    object-fit: cover;
+    border-radius: 30px;
+    
 }
 
 .container .welcome_description {
     font-family: Source Serif Pro, sans-serif;
     font-size: 20px;
-    margin-bottom: 2em;
   }
   
+  .welcome_start {
+      margin: 10px 0;
+  }
